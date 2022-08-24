@@ -1,0 +1,58 @@
+.content-detail {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.content {
+  border: 2px solid #fff;
+  border-radius: 2px;
+  height: 100%;
+  padding: 10px;
+}
+
+.personal,
+.medical,
+.nextOfKin {
+  text-align: left;
+  padding: 5px;
+  height: 100%;
+}
+
+.ant-card-bordered {
+  border: none !important;
+}
+
+nav {
+  margin: 10px;
+}
+
+nav a {
+  padding: 10px;
+  color: #000;
+}
+
+.patient-detail-link {
+  pointer-events: none;
+  color: #ddd;
+}
+
+.active {
+  color: #1990ff;
+  border-bottom: 1px solid #1990ff;
+}
+
+.card-border {
+  border: 1px solid #f0f0f0;
+}
+
+@media screen and (max-width: 767px) {
+  .medical,
+  .nextOfKin {
+    border-top: 2px solid #fff;
+  }
+
+  .content {
+    border: none;
+  }
+}
